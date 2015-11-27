@@ -1,0 +1,19 @@
+
+{  
+  "manifest_version": 2,
+  "name": "HduAc",  
+  "version": "1.0",  
+  "description": "更好的在杭电OJ上玩耍",
+  "icons": { "48":"icon.png"},
+  "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*","storage" ], 
+  "content_scripts": [{  
+      "all_frames": true,  
+      "matches": ["http://acm.hdu.edu.cn/*"],  
+      "js": ["jquery.min.js","func.js"]  
+   }],
+  "browser_action": {  
+    "default_icon": "icon.png" ,
+    "default_title": "HduAc",
+    "default_popup": "popup.html"
+  } 
+} 
