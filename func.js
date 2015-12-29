@@ -36,7 +36,7 @@ function init_clock(el,f){
         localStorage.m=m;
         localStorage.s=s;
         localStorage.f=1;
-        el.innerHTML = "开始时间:"+h+":"+m+":"+s;
+        el.innerHTML = "<br>开始时间:"+h+":"+m+":"+s;
     }else{
         h-=localStorage.h;
         m-=localStorage.m;
