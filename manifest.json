@@ -9,7 +9,7 @@
   "content_scripts": [{  
       "all_frames": true,  
       "matches": ["http://acm.hdu.edu.cn/*"],  
-      "js": ["jquery.min.js","func.js"]  
+      "js": ["jquery.min.js","easy_func.js"]  
    }],
   "browser_action": {  
     "default_icon": "icon.png" ,

@@ -1,4 +1,5 @@
 $(function(){
+    $('#state').append(window.location.href.substr(42,4).toString()+" Hdu");
     if(localStorage.f==1){
        h=localStorage.h;
        m=localStorage.m;
